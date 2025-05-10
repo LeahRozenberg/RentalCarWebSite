@@ -1,0 +1,70 @@
+######################
+# 🔹 BACKEND: C# Web API
+######################
+
+# Build artifacts
+[Bb]in/
+[Oo]bj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.mdb
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# DotNet tools
+*.nupkg
+*.snupkg
+*.nuspec
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# EF / Database
+Migrations/
+*.dbmdl
+
+# Publish output
+publish/
+
+# Logs
+*.log
+
+######################
+# 🔹 FRONTEND: React
+######################
+
+# Dependencies
+node_modules/
+
+# Production build
+build/
+dist/
+
+# Misc
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Testing
+coverage/
+
+# dotenv
+.env
+.env.*
+
+# VS Code / WebStorm / IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
